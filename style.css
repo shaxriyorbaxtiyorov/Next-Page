@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: Roboto;
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    color: white;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: white;
+    align-items: center;
+}
+nav{
+    background-color: white;
+    width: 100%;
+}
+.main{
+    margin: 0 auto;   
+    border: 1px solid red;
+    width: 1100px;
+    height: auto;
+}
+svg{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
+svg:hover{
+    cursor: pointer;
+}
+.freepik{
+    display: inline-block;
+}
+.freepik{
+    display: inline-block;
+}
+.freepik1{
+    text-decoration: none;
+}
+.info{
+    width: 400px;
+}
+.firstpage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.firstpagetexth1{
+    font-size: 40px;
+}
+.firstpagetexth3{
+    font-size: 20px;
+    font-weight: 300;
+}
+.firstpagebutton{
+    width: 180px;
+    height: 50px;
+    background-color: #297c9b;
+    border-radius: 15px;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 15px;
+
+}
+.firstpagebutton:hover{
+    background-color: #1d6079;
+    cursor: pointer;
+}
+.textexperience{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.box{
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    background-color: #313030;
+}
+.secondpage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    align-items: start;
+}
+.box{
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.flexbox{
+    width: 700px;
+}
+.experience{
+    margin-top: -40px;
+}
+.box:hover{
+    background-color: rgb(250, 76, 105);
+    cursor: pointer;
+}
+.thirdpage{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.thirdpagephoto{
+    margin-top: 100px;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+}
+.photobox{
+    background-color: white;
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin-left: 40px;
+}
+.thirdpagebutton{
+    width: 180px;
+    height: 50px;
+    background-color: #F41A83;
+    border-radius: 15px;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 230px;
+}
+.box1{
+    background-color: white;
+    width: 350px;
+    height: 230px;
+}
+.bi-globe2{
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: absolute;
+    left: 1080px;
+    top: 1282px;
+}
+.thirdpagebutton:hover{
+    width: 180px;
+    height: 50px;
+    background-color: #f10e7c;
+    border-radius: 15px;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.textproject{
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+}
+.fourpage{
+    margin-top: 100px;
+}
+.firstline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inforfour{
+    width: 500px;
+}
+.fourpagebutton{
+    width: 180px;
+    height: 50px;
+    background-color: #1251E8;
+    border-radius: 15px;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+.fourpagebutton:hover{
+    background-color: #9BB6F6;
+}
+.box2{
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333333;
+}
+.skillsbox{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    height: 170px;
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: 100px;
+}
+.skillsinfo{
+    width: 320px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.constext h1{
+    font-size: 35px;
+}
+.constext p{
+    font-size: 18px;
+}
+.constext{
+    width: 550px;
+}
+.conspagebutton{
+    width: 250px;
+    height: 60px;
+    background-color: #F41A83;
+    border-radius: 15px;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+}
+.freecons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.conspagebutton:hover{
+    background-color: #f10e7c;
+    cursor: pointer;
+}
+.textadress{
+    font-weight: 300;
+}
+.emailadress{
+    color:#F41A83;
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.numadress{
+    margin: 0;
+    margin-top: 50px !important;
+}
+.signemail{
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+}
+.signpagebutton{
+    width: 150px;
+    height: 30px;
+    background-color: #F41A83;
+    border-radius: 10px;
+    display: block;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.signtext{
+    width: 500px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+.signbutton{
+    display: flex;
+}
+.signup{
+    margin-top: -50px;
+}
+.adress{
+    width: 600px;
+}
+footer{
+    background-color: #333333;
+    margin-top: 100px;
+    height: 250px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.textfooter{
+    text-align: center;
+}
+.textfooter h3,h1{
+    font-weight: 300;
+}
+.textfooter h1{
+
+    margin: 0;
+}
+.textfooter h3{
+    margin-bottom: 70px !important;
+    margin: 0;
+}
